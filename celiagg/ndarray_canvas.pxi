@@ -1,3 +1,5 @@
+# distutils: language = c++
+
 # The MIT License (MIT)
 #
 # Copyright (c) 2014 WUSTL ZPLAB

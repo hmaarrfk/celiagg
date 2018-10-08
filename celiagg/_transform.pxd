@@ -1,3 +1,5 @@
+# distutils: language = c++
+
 # The MIT License (MIT)
 #
 # Copyright (c) 2016 WUSTL ZPLAB
@@ -21,7 +23,6 @@
 # SOFTWARE.
 #
 # Authors: John Wiggins
-
 
 cdef extern from "agg_trans_affine.h" namespace "agg":
 
