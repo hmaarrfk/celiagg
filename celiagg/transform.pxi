@@ -1,3 +1,5 @@
+# distutils: language = c++
+
 # The MIT License (MIT)
 #
 # Copyright (c) 2016 WUSTL ZPLAB
@@ -21,7 +23,6 @@
 # SOFTWARE.
 #
 # Authors: John Wiggins
-
 
 cdef class Transform:
     """Transform(sx=1.0, shy=0.0, shx=0.0, sy=1.0, tx=0.0, ty=0.0)
